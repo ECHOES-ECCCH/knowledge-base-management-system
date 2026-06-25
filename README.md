@@ -22,7 +22,7 @@ The KBMS is currently operational and actively manages a federated environment c
 
 The hosting infrastructure and node allocations are distributed as follows:
 * **PSNC Infrastructure (6 Triplestores):**
-  * **4 Public Nodes:** Dedicated public testing environments for hosting production-level RDF data.
+  * **4 Public Nodes:** Dedicated public testing environments for hosting demo-level RDF data.
   * **1 Private Space Node:** An isolated testing environment configured specifically to handle temporary Private Space RDF workloads.
   * **1 Recycle Bin Node:** Archival storage configured to store deleted or replaced Named Graphs, ensuring historical data integrity.
 * **FORTH Infrastructure (1 Triplestore):**
