@@ -15,3 +15,17 @@ The **Knowledge Base Management System (KBMS)** is one of the central components
 The Swagger documentation for the API can be found at [Swagger UI](https://echoes-kb-api-route-echoes-graphs-production.apps.dcw1.paas.psnc.pl/swagger-ui/index.html).
 
 > ⚠️ **Authentication Required:** To execute any service through the Swagger interface, a valid OAuth 2.0 token is required. You can obtain a valid access token directly from the [Token Generation Portal](https://aai-demo.egi.eu/token/).
+
+## Current Deployment & Federated Nodes
+
+The KBMS is currently operational and actively manages a federated environment consisting of **7 registered triplestores** used for testing and validation. These nodes are centrally governed through a dedicated **MongoDB** administrative database that handles system metadata, user roles, and workspace definitions.
+
+The hosting infrastructure and node allocations are distributed as follows:
+* **PSNC Infrastructure (6 Triplestores):**
+  * **4 Public Nodes:** Dedicated public testing environments for hosting production-level RDF data.
+  * **1 Private Space Node:** An isolated testing environment configured specifically to handle temporary Private Space RDF workloads.
+  * **1 Recycle Bin Node:** Archival storage configured to store deleted or replaced Named Graphs, ensuring historical data integrity.
+* **FORTH Infrastructure (1 Triplestore):**
+  * **1 Registration Node:** Dedicated to hosting registration HDT data and relative system metadata.
+
+> ⚠️ **Note:** This node configuration and infrastructure topology reflect the current testing phase and are subject to change as the federation scales and evolves.
