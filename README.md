@@ -18,7 +18,7 @@ The Swagger documentation for the API can be found at [Swagger UI](https://echoe
 
 ## Current Deployment & Federated Nodes
 
-The KBMS is currently operational and actively manages a federated environment consisting of **7 registered triplestores** used for testing and validation. These nodes are centrally governed through a dedicated **MongoDB** administrative database that handles system metadata, user roles, and workspace definitions.
+The KBMS is currently operational and actively manages a federated environment consisting of **8 registered triplestores** used for testing and validation. These nodes are centrally governed through a dedicated **MongoDB** administrative database that handles system metadata, user roles, and workspace definitions.
 
 The hosting infrastructure and node allocations are distributed as follows:
 * **PSNC Infrastructure (6 Triplestores):**
